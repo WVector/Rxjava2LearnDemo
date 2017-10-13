@@ -179,6 +179,7 @@ public class ConnectableObservableActivity extends AppCompatActivity {
             @Override
             public void accept(Disposable disposable) throws Exception {
                 mConvertDisposable = disposable;
+
             }
         });
     }

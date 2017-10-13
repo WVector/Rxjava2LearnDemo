@@ -29,4 +29,8 @@ public class HomeActivity extends AppCompatActivity {
     public void connectableObservable(View view) {
         jumpTo(ConnectableObservableActivity.class);
     }
+
+    public void time(View view) {
+        jumpTo(TimeActivity.class);
+    }
 }
