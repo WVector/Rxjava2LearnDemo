@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Rxjava实例</string>
+    <string name="net_load_long"><![CDATA[缓存时间<网络时间]]></string>
+    <string name="cache_load_long"><![CDATA[缓存时间>网络时间]]></string>
+</resources>
