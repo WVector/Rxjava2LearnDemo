@@ -183,7 +183,9 @@ public class ConnectableObservableActivity extends AppCompatActivity {
         });
     }
 
-    //.reply会让缓存源Observable的N个数据项，当有新的订阅者订阅时，它会发送这N个数据项给它。
+    /**
+     * .reply会让缓存源Observable的N个数据项，当有新的订阅者订阅时，它会发送这N个数据项给它。
+     */
     private void createReplySource() {
         mConvertObservable = getSource().replay(3);
         mConvertDisposable = ((ConnectableObservable<Integer>) mConvertObservable).connect();
